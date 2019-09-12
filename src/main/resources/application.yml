@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/bos?characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+  jpa:
+#   database-platform: org.hibernate.dialect.MYSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
